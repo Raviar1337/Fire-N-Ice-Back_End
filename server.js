@@ -1,4 +1,4 @@
-const express = requier("express");
+const express = require("express");
 const app = express();
 
 const PORT = process.env.PORT || 3001;
@@ -12,5 +12,5 @@ app.get("/api", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  cnonsole.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
